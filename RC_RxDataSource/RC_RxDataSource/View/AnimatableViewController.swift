@@ -42,22 +42,6 @@ class AnimatableViewController: UIViewController {
             .bind(to: tableView.rx.items(dataSource: viewModel.dataSource))
             .disposed(by: rx.disposeBag)
         
-        
-        let dataSource = RxTableViewSectionedReloadDataSource<SectionModel<String, Int>>(configureCell: { dataSource, tableview, indexPath, str -> UITableViewCell in
-            let cell = tableview.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-            cell.textLabel?.text = "\(str)"
-            return cell
-        })
-        
-        Observable.just([SectionModel(model: "title", items: [1, 2, 3])])
-            .bind(to: tableView.rx.items(dataSource: dataSource))
-            .disposed(by: rx.disposeBag)
-
-        
-        
-        
-        
-        
     }
 
 }
