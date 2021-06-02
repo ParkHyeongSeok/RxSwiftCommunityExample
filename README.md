@@ -1,5 +1,6 @@
 # RxSwift
 
+### 설명은 아래 링크에!
 <https://developerpaul.tistory.com/>
 
 ### RxSwift Original
