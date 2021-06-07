@@ -84,6 +84,7 @@ open class TableViewSectionedDataSource<Section: SectionModelType>
     // and their relationship with section.
     // If particular item is mutable, that is irrelevant for this logic to function
     // properly.
+    
     public typealias SectionModelSnapshot = SectionModel<Section, Item>
     
     private var _sectionModels: [SectionModelSnapshot] = []
