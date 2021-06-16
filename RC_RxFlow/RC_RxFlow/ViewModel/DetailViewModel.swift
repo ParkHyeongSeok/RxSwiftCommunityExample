@@ -11,7 +11,16 @@ import RxCocoa
 
 class DetailViewModel {
     
-    let detailArticle = BehaviorRelay<Article>(value: Article(title: "Empty News", content: "Network Connection False", thumbnailImageURL: URL(string: "https://cleantechnica.com/files/2021/06/Tesla-Model-3-Paris-France.jpeg")!))
+    let title: Driver<String>
     
+    let content: Driver<String>
+    
+    let thumbnailImageURL: URL
+    
+    init(title: String, content: String, thumbnailImageURL: URL) {
+        self.title = Driver.just(title)
+        self.content = Driver.just(content)
+        self.thumbnailImageURL = thumbnailImageURL
+    }
     
 }

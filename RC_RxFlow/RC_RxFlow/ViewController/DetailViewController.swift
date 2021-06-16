@@ -7,10 +7,12 @@
 
 import UIKit
 import SDWebImage
+import RxCocoa
+import RxSwift
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, ViewModelBindable, Storyboarded {
     
-    var article: Article?
+    var viewModel: DetailViewModel!
     
     @IBOutlet weak var thumbnailImage: UIImageView!
     @IBOutlet weak var articleTitle: UILabel!
@@ -19,18 +21,21 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
-        updateUI(article: article)
     }
     
     private func configureUI() {
-        title = "Detail"
         thumbnailImage.contentMode = .scaleAspectFill
     }
     
-    private func updateUI(article: Article?) {
-        thumbnailImage.sd_setImage(with: article?.thumbnailImageURL, completed: nil)
-        articleTitle.text = article?.title
-        articleContent.text = article?.content
+    func bindViewModel() {
+        
+        viewModel.title
+            .drive(articleTitle.rx.text)
+            .disposed(by: rx.disposeBag)
+        viewModel.content
+            .drive(articleContent.rx.text)
+            .disposed(by: rx.disposeBag)
+        thumbnailImage.sd_setImage(with: viewModel.thumbnailImageURL, completed: nil)
     }
-
+    
 }
