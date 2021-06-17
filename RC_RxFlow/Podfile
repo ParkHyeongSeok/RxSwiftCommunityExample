@@ -12,4 +12,5 @@ pod 'RxDataSources'
 pod 'NSObject+Rx'
 pod 'RxFlow'
 pod 'SDWebImage'
+pod 'Action'
 end

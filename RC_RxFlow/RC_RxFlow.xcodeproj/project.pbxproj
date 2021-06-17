@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AC9D66267B0B130053096F /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9D65267B0B130053096F /* AppFlow.swift */; };
+		03AC9D68267B0B2D0053096F /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9D67267B0B2D0053096F /* AppStepper.swift */; };
+		03AC9D6A267B0B7A0053096F /* AppSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9D69267B0B7A0053096F /* AppSteps.swift */; };
+		03AC9D6C267B19550053096F /* MainFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9D6B267B19550053096F /* MainFlow.swift */; };
 		03BA68E82674F5B70072FA36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA68E72674F5B70072FA36 /* AppDelegate.swift */; };
 		03BA68EA2674F5B70072FA36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA68E92674F5B70072FA36 /* SceneDelegate.swift */; };
 		03BA68EF2674F5B70072FA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BA68ED2674F5B70072FA36 /* Main.storyboard */; };
@@ -22,12 +26,15 @@
 		03BA691326761A490072FA36 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA691226761A490072FA36 /* DetailViewController.swift */; };
 		03BA691526761A690072FA36 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA691426761A690072FA36 /* DetailViewModel.swift */; };
 		03BA69382679E3F50072FA36 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA69372679E3F50072FA36 /* Storyboarded.swift */; };
-		03BA693A2679E5AA0072FA36 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA69392679E5AA0072FA36 /* ViewModelType.swift */; };
 		03BA693E267ABB340072FA36 /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA693D267ABB340072FA36 /* ViewModelBindable.swift */; };
 		E2D9A153602AAD8AABA87974 /* Pods_RC_RxFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C22C4AF3AB6C2BE4F442AAA /* Pods_RC_RxFlow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03AC9D65267B0B130053096F /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		03AC9D67267B0B2D0053096F /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
+		03AC9D69267B0B7A0053096F /* AppSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSteps.swift; sourceTree = "<group>"; };
+		03AC9D6B267B19550053096F /* MainFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlow.swift; sourceTree = "<group>"; };
 		03BA68E42674F5B70072FA36 /* RC_RxFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RC_RxFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BA68E72674F5B70072FA36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03BA68E92674F5B70072FA36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +52,6 @@
 		03BA691226761A490072FA36 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		03BA691426761A690072FA36 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		03BA69372679E3F50072FA36 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		03BA69392679E5AA0072FA36 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		03BA693D267ABB340072FA36 /* ViewModelBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindable.swift; sourceTree = "<group>"; };
 		336A7B9A0EB383C57EB8EAB9 /* Pods-RC_RxFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RC_RxFlow.debug.xcconfig"; path = "Target Support Files/Pods-RC_RxFlow/Pods-RC_RxFlow.debug.xcconfig"; sourceTree = "<group>"; };
 		7C22C4AF3AB6C2BE4F442AAA /* Pods_RC_RxFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RC_RxFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +99,6 @@
 				03BA68FE2674F6740072FA36 /* ViewModel */,
 				03BA68FD2674F66D0072FA36 /* ViewController */,
 				03BA68FC2674F6630072FA36 /* View */,
-				03BA68E72674F5B70072FA36 /* AppDelegate.swift */,
-				03BA68E92674F5B70072FA36 /* SceneDelegate.swift */,
 				03BA68F02674F5B80072FA36 /* Assets.xcassets */,
 				03BA68F52674F5B80072FA36 /* Info.plist */,
 			);
@@ -132,7 +136,6 @@
 		03BA68FE2674F6740072FA36 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				03BA69392679E5AA0072FA36 /* ViewModelType.swift */,
 				03BA690C267500230072FA36 /* ArticleViewModel.swift */,
 				03BA691426761A690072FA36 /* DetailViewModel.swift */,
 			);
@@ -167,6 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				03BA69372679E3F50072FA36 /* Storyboarded.swift */,
+				03AC9D65267B0B130053096F /* AppFlow.swift */,
+				03AC9D6B267B19550053096F /* MainFlow.swift */,
+				03AC9D67267B0B2D0053096F /* AppStepper.swift */,
+				03AC9D69267B0B7A0053096F /* AppSteps.swift */,
+				03BA68E72674F5B70072FA36 /* AppDelegate.swift */,
+				03BA68E92674F5B70072FA36 /* SceneDelegate.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -304,6 +313,7 @@
 			files = (
 				03BA690D267500230072FA36 /* ArticleViewModel.swift in Sources */,
 				03BA69112675BE6D0072FA36 /* ArticleTableViewCell.swift in Sources */,
+				03AC9D6A267B0B7A0053096F /* AppSteps.swift in Sources */,
 				03BA68E82674F5B70072FA36 /* AppDelegate.swift in Sources */,
 				03BA693E267ABB340072FA36 /* ViewModelBindable.swift in Sources */,
 				03BA69092674F96F0072FA36 /* Article.swift in Sources */,
@@ -315,7 +325,9 @@
 				03BA691526761A690072FA36 /* DetailViewModel.swift in Sources */,
 				03BA690F267501D40072FA36 /* MainViewController.swift in Sources */,
 				03BA69382679E3F50072FA36 /* Storyboarded.swift in Sources */,
-				03BA693A2679E5AA0072FA36 /* ViewModelType.swift in Sources */,
+				03AC9D6C267B19550053096F /* MainFlow.swift in Sources */,
+				03AC9D66267B0B130053096F /* AppFlow.swift in Sources */,
+				03AC9D68267B0B2D0053096F /* AppStepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

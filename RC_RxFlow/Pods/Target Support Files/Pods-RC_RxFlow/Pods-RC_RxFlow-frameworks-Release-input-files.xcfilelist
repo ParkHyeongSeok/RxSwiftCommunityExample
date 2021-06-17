@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-RC_RxFlow/Pods-RC_RxFlow-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Action/Action.framework
 ${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
 ${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework

@@ -11,6 +11,8 @@ import RxCocoa
 
 class DetailViewModel {
     
+    let vcTitle: String = "Detail"
+    
     let title: Driver<String>
     
     let content: Driver<String>
