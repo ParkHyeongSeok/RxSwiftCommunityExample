@@ -12,25 +12,20 @@ import RxCocoa
 import NSObject_Rx
 import RxDataSources
 
-class MainViewController: UIViewController, Storyboarded {
+class MainViewController: UIViewController, Storyboarded, ViewModelBindable {
 
-    var viewModel = ArticleViewModel()
+    var viewModel: ArticleViewModel!
     
     @IBOutlet weak var listTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bindViewModel()
+        
     }
     
     func bindViewModel() {
         listTableView.rx.modelSelected(Article.self)
-            .subscribe(onNext: { [weak self] article in
-                let detailViewModel = DetailViewModel(title: article.title, content: article.content, thumbnailImageURL: article.thumbnailImageURL)
-                var vc = DetailViewController.instantiate()
-                vc.bind(viewModel: detailViewModel)
-                self?.navigationController?.pushViewController(vc, animated: true)
-            })
+            .bind(to: viewModel.detailAction.inputs)
             .disposed(by: rx.disposeBag)
         
         viewModel.articles

@@ -29,6 +29,8 @@ class DetailViewController: UIViewController, ViewModelBindable, Storyboarded {
     
     func bindViewModel() {
         
+        title = viewModel.vcTitle
+        
         viewModel.title
             .drive(articleTitle.rx.text)
             .disposed(by: rx.disposeBag)

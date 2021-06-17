@@ -10,8 +10,16 @@ import RxSwift
 import RxCocoa
 import RxDataSources
 import SDWebImage
+import RxFlow
+import Action
 
-class ArticleViewModel {
+class ArticleViewModel: Stepper {
+    
+    var steps: PublishRelay<Step> = .init()
+    
+    var initialStep: Step {
+        return AppSteps.homeIsRequired
+    }
     
     private let service = ArticleService()
     
@@ -47,6 +55,15 @@ class ArticleViewModel {
         }
         
         return ds
+    }()
+    
+    lazy var detailAction: Action<Article, Void> = {
+        return Action { [weak self] article in
+            
+            self?.steps.accept(AppSteps.detailIsRequired(article))
+            
+            return Observable.empty()
+        }
     }()
     
 }
