@@ -18,8 +18,4 @@ class AppStepper: Stepper {
         return AppSteps.homeIsRequired
     }
     
-    func readyToEmitSteps() {
-        
-    }
-    
 }
