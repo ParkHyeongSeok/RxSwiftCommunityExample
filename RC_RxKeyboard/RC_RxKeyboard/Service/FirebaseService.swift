@@ -6,7 +6,12 @@
 //
 
 import Foundation
+import FirebaseDatabase
 
 class FirebaseService {
+    
+    let database = Database.database().reference()
+    
+    
     
 }

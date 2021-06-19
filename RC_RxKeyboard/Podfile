@@ -12,4 +12,6 @@ pod 'RxCocoa'
 pod 'NSObject+Rx'
 pod 'RxKeyboard'
 pod 'Action'
+pod 'Firebase/Analytics'
+pod 'Firebase/Database'
 end

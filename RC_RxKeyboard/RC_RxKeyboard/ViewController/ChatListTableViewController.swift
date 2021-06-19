@@ -6,6 +6,10 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
+
+fileprivate let reuseIdentifier = "listCell"
 
 class ChatListTableViewController: UITableViewController {
 
