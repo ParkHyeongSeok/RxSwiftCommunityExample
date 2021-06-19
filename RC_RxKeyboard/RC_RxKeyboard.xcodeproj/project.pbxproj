@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AC9D8A267D9AFD0053096F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AC9D88267D9AFD0053096F /* Main.storyboard */; };
+		03AC9D8C267D9AFF0053096F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AC9D8B267D9AFF0053096F /* Assets.xcassets */; };
+		03AC9D8F267D9AFF0053096F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AC9D8D267D9AFF0053096F /* LaunchScreen.storyboard */; };
+		03AC9D9C267D9B670053096F /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9D9B267D9B670053096F /* FirebaseService.swift */; };
+		03AC9DA4267D9BB70053096F /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9DA3267D9BB70053096F /* ChatCollectionViewCell.swift */; };
+		03AC9DA7267D9C030053096F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9DA6267D9C030053096F /* User.swift */; };
+		03AC9DA9267D9C140053096F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9DA8267D9C140053096F /* Chat.swift */; };
+		03AC9DAD267D9CFB0053096F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9DAC267D9CFB0053096F /* AppDelegate.swift */; };
+		03AC9DAF267D9D080053096F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9DAE267D9D080053096F /* SceneDelegate.swift */; };
+		03AC9DB1267D9D830053096F /* ChatListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9DB0267D9D830053096F /* ChatListTableViewController.swift */; };
+		03AC9DB3267D9D940053096F /* ChatCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9DB2267D9D940053096F /* ChatCollectionViewController.swift */; };
+		03AC9DB5267D9E0E0053096F /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC9DB4267D9E0E0053096F /* ChatListTableViewCell.swift */; };
+		EDA98DFDAA1AED11A64DD0CD /* Pods_RC_RxKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CC955465D7E85339687FED /* Pods_RC_RxKeyboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03AC9D7F267D9AFD0053096F /* RC_RxKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RC_RxKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AC9D89267D9AFD0053096F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AC9D8B267D9AFF0053096F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AC9D8E267D9AFF0053096F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AC9D90267D9AFF0053096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AC9D9B267D9B670053096F /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		03AC9DA3267D9BB70053096F /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		03AC9DA6267D9C030053096F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		03AC9DA8267D9C140053096F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		03AC9DAC267D9CFB0053096F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03AC9DAE267D9D080053096F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03AC9DB0267D9D830053096F /* ChatListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewController.swift; sourceTree = "<group>"; };
+		03AC9DB2267D9D940053096F /* ChatCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewController.swift; sourceTree = "<group>"; };
+		03AC9DB4267D9E0E0053096F /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
+		1B5E0161F915B3ABDD16F37E /* Pods-RC_RxKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RC_RxKeyboard.debug.xcconfig"; path = "Target Support Files/Pods-RC_RxKeyboard/Pods-RC_RxKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		33CC955465D7E85339687FED /* Pods_RC_RxKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RC_RxKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8500B9A69235F557E2018A10 /* Pods-RC_RxKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RC_RxKeyboard.release.xcconfig"; path = "Target Support Files/Pods-RC_RxKeyboard/Pods-RC_RxKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AC9D7C267D9AFD0053096F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA98DFDAA1AED11A64DD0CD /* Pods_RC_RxKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AC9D76267D9AFD0053096F = {
+			isa = PBXGroup;
+			children = (
+				03AC9D81267D9AFD0053096F /* RC_RxKeyboard */,
+				03AC9D80267D9AFD0053096F /* Products */,
+				9D14A896C68C14B6DBC874E8 /* Pods */,
+				409BC3EF12162C51084F76B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03AC9D80267D9AFD0053096F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AC9D7F267D9AFD0053096F /* RC_RxKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AC9D81267D9AFD0053096F /* RC_RxKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				03AC9D96267D9B060053096F /* Resources */,
+				03AC9D9A267D9B2F0053096F /* Service */,
+				03AC9D97267D9B0E0053096F /* Model */,
+				03AC9D98267D9B130053096F /* ViewController */,
+				03AC9D99267D9B1F0053096F /* View */,
+				03AC9D90267D9AFF0053096F /* Info.plist */,
+			);
+			path = RC_RxKeyboard;
+			sourceTree = "<group>";
+		};
+		03AC9D96267D9B060053096F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03AC9DAE267D9D080053096F /* SceneDelegate.swift */,
+				03AC9DAC267D9CFB0053096F /* AppDelegate.swift */,
+				03AC9D8D267D9AFF0053096F /* LaunchScreen.storyboard */,
+				03AC9D8B267D9AFF0053096F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03AC9D97267D9B0E0053096F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03AC9DA6267D9C030053096F /* User.swift */,
+				03AC9DA8267D9C140053096F /* Chat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03AC9D98267D9B130053096F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03AC9D88267D9AFD0053096F /* Main.storyboard */,
+				03AC9DB0267D9D830053096F /* ChatListTableViewController.swift */,
+				03AC9DB2267D9D940053096F /* ChatCollectionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		03AC9D99267D9B1F0053096F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03AC9DB4267D9E0E0053096F /* ChatListTableViewCell.swift */,
+				03AC9DA3267D9BB70053096F /* ChatCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03AC9D9A267D9B2F0053096F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				03AC9D9B267D9B670053096F /* FirebaseService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		409BC3EF12162C51084F76B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33CC955465D7E85339687FED /* Pods_RC_RxKeyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D14A896C68C14B6DBC874E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E0161F915B3ABDD16F37E /* Pods-RC_RxKeyboard.debug.xcconfig */,
+				8500B9A69235F557E2018A10 /* Pods-RC_RxKeyboard.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AC9D7E267D9AFD0053096F /* RC_RxKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AC9D93267D9AFF0053096F /* Build configuration list for PBXNativeTarget "RC_RxKeyboard" */;
+			buildPhases = (
+				7196394F559B945FAE7BDD7F /* [CP] Check Pods Manifest.lock */,
+				03AC9D7B267D9AFD0053096F /* Sources */,
+				03AC9D7C267D9AFD0053096F /* Frameworks */,
+				03AC9D7D267D9AFD0053096F /* Resources */,
+				BEBD20650BF12109A4CB627B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RC_RxKeyboard;
+			productName = RC_RxKeyboard;
+			productReference = 03AC9D7F267D9AFD0053096F /* RC_RxKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AC9D77267D9AFD0053096F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					03AC9D7E267D9AFD0053096F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 03AC9D7A267D9AFD0053096F /* Build configuration list for PBXProject "RC_RxKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AC9D76267D9AFD0053096F;
+			productRefGroup = 03AC9D80267D9AFD0053096F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AC9D7E267D9AFD0053096F /* RC_RxKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AC9D7D267D9AFD0053096F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AC9D8F267D9AFF0053096F /* LaunchScreen.storyboard in Resources */,
+				03AC9D8C267D9AFF0053096F /* Assets.xcassets in Resources */,
+				03AC9D8A267D9AFD0053096F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7196394F559B945FAE7BDD7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RC_RxKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEBD20650BF12109A4CB627B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RC_RxKeyboard/Pods-RC_RxKeyboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RC_RxKeyboard/Pods-RC_RxKeyboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RC_RxKeyboard/Pods-RC_RxKeyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AC9D7B267D9AFD0053096F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AC9DB3267D9D940053096F /* ChatCollectionViewController.swift in Sources */,
+				03AC9DB1267D9D830053096F /* ChatListTableViewController.swift in Sources */,
+				03AC9DA4267D9BB70053096F /* ChatCollectionViewCell.swift in Sources */,
+				03AC9D9C267D9B670053096F /* FirebaseService.swift in Sources */,
+				03AC9DA9267D9C140053096F /* Chat.swift in Sources */,
+				03AC9DAD267D9CFB0053096F /* AppDelegate.swift in Sources */,
+				03AC9DB5267D9E0E0053096F /* ChatListTableViewCell.swift in Sources */,
+				03AC9DA7267D9C030053096F /* User.swift in Sources */,
+				03AC9DAF267D9D080053096F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03AC9D88267D9AFD0053096F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AC9D89267D9AFD0053096F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AC9D8D267D9AFF0053096F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AC9D8E267D9AFF0053096F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AC9D91267D9AFF0053096F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03AC9D92267D9AFF0053096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AC9D94267D9AFF0053096F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5E0161F915B3ABDD16F37E /* Pods-RC_RxKeyboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBAJ2NCPU9;
+				INFOPLIST_FILE = RC_RxKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DeveloperPaul.RC-RxKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AC9D95267D9AFF0053096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8500B9A69235F557E2018A10 /* Pods-RC_RxKeyboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBAJ2NCPU9;
+				INFOPLIST_FILE = RC_RxKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DeveloperPaul.RC-RxKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AC9D7A267D9AFD0053096F /* Build configuration list for PBXProject "RC_RxKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AC9D91267D9AFF0053096F /* Debug */,
+				03AC9D92267D9AFF0053096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AC9D93267D9AFF0053096F /* Build configuration list for PBXNativeTarget "RC_RxKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AC9D94267D9AFF0053096F /* Debug */,
+				03AC9D95267D9AFF0053096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AC9D77267D9AFD0053096F /* Project object */;
+}
