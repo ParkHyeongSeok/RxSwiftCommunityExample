@@ -6,8 +6,10 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
 
-private let reuseIdentifier = "Cell"
+fileprivate let reuseIdentifier = "chatCell"
 
 class ChatCollectionViewController: UICollectionViewController {
 
