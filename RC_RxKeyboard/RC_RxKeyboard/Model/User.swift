@@ -7,13 +7,15 @@
 
 import Foundation
 
-struct User {
+struct User: Equatable {
+    let id: String
+    var password: String
     let name: String
-    let userType: UserType
-    var friendsList: [User]
+    var friendsList: [User] = []
+    
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
 }
 
-enum UserType {
-    case me
-    case other
-}

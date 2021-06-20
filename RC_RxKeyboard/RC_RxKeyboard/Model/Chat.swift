@@ -8,7 +8,7 @@
 import Foundation
 
 struct Chat {
-    var user: User
+    var writter: User
     var content: String
     var date: Date
 }
