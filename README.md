@@ -1,9 +1,5 @@
 # RxSwift
-
-### 설명은 아래 링크에!
-<https://developerpaul.tistory.com/>
-
-### RxSwift Original
+News API<https://newsapi.org/>를 사용, 비동기 처리를 해당 RxSwift의 커뮤니티 기술을 사용해 예제로 구현
 
 ### RxSwift Community
 1. Action
